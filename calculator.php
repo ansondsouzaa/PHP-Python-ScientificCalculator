@@ -27,17 +27,20 @@ include("auth_session.php");
                 function isValidExpression($expression)
                 {
                     // Disallow consecutive occurrences of "+", "-", "x", and "÷" operators
-                    if (preg_match('/[*+x÷-]{2,}/', $expression)) {
+                    if (preg_match('/(?:[*+x÷-])\\1+/', $expression)) {
                         return false;
                     }
+
                     // Prevent "-" and "+" directly before "÷" and "x"
-                    if (preg_match('/[+-][÷x]/', $expression)) {
+                    if (preg_match('/[+\-](?:[÷x])/', $expression)) {
                         return false;
                     }
+
                     // Check if expression ends with an operator
-                    if (preg_match('/[+x÷-]$/', $expression)) {
+                    if (preg_match('/[*+x÷-]$/', $expression)) {
                         return false;
                     }
+
                     return true;
                 }
 

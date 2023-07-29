@@ -1,0 +1,205 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+body {
+    margin: 20px;
+    background: #000000;
+}
+
+.container {
+    margin: 50px auto;
+    width: 35rem;
+    padding: 30px 25px;
+    border-radius: 1rem;
+    background: rgb(0, 0, 0);
+    border: 1px solid #fff;
+}
+
+
+/* Form styles */
+
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    border-radius: 1rem;
+    background: rgb(0, 0, 0);
+    border: 1px solid #fff;
+}
+
+h1.login-title {
+    color: #00e000;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+    background: transparent;
+    color: #00e000;
+
+    &:focus {
+        border-color: #00e000;
+        outline: none;
+    }
+}
+
+
+.login-button {
+    color: #000;
+    background: #00e000;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background: #00a800;
+    }
+}
+
+.link {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+a {
+    color: #00e000;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+// Calculator styles
+
+.calculator {
+    margin: 50px auto;
+    width: 350px;
+    padding: 30px 25px;
+    border-radius: 1rem;
+    background: rgb(0, 0, 0);
+    border: 1px solid #fff;
+}
+
+.calc-input {
+    font-size: 20px;
+    letter-spacing: 3px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+    background: transparent;
+    color: #00e000;
+
+    &:focus {
+        border-color: #00e000;
+        outline: none;
+    }
+}
+
+.fun-button,
+.op-button,
+.num-button,
+.calc-button,
+.mode-button,
+.act-button {
+    margin: 5px 0;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    width: 80px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.fun-button,
+.op-button,
+.mode-button,
+.act-button {
+    background: #6a6a6a;
+}
+
+.num-button {
+    background: #363636;
+}
+
+.calc-button {
+    background: #4CAF50;
+}
+
+.result {
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    overflow-x: scroll;
+
+    span {
+        padding: 0 20px;
+    }
+}
+
+.color-green {
+    color: #01da01;
+}
+
+.mode-buttons {
+    background: #6a6a6a;
+    border-radius: 5px;
+    margin: 5px 0;
+
+    button {
+        cursor: pointer;
+        border: none;
+        padding: 0.5rem;
+        width: 70.5px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 5px;
+        border: none;
+        background: transparent;
+    }
+
+    .active {
+        color: #00ff08;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+}

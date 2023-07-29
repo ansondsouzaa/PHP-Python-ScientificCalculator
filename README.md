@@ -2,6 +2,11 @@
 
 This is a web-based scientific calculator that allows users to perform various mathematical calculations using PHP and Python. It supports basic arithmetic operations, trigonometric functions, square, square root and factorial.
 
+![Calculator Image](https://drive.google.com/uc?export=view&id=15fQ9RgBt_gBx8lGt9I77f5l-GjA0ZvAt)
+
+# Video URL here
+https://drive.google.com/file/d/1Lbl_xL0qGrzM6kaBVD2_h_cF7qeOd7ME/view?usp=sharing
+
 ## Features
 
 - Register, Login with Password, Login with email OTP, Logout
